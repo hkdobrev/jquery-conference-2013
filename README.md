@@ -1,7 +1,7 @@
 [jQuery Bulgaria 2013](http://www.jquerybulgaria.com/jquery2013/)
 ======================
 
-This repos **is** my presentation for the jQuery Bulgaria Conference 2013.
+This repo **is** my presentation for the jQuery Bulgaria Conference 2013.
 
 It is highly inspired from the two screencasts [Paul Irish](https://github.com/paulirish) recorded years ago:
 
