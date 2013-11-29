@@ -32,6 +32,7 @@ jQuery.type(); // uses class2type
 
 // ~~~
 
+// delay jQuery.ready event from your plugin
 jQuery.readyWait++;
 
 // ~~~
@@ -44,7 +45,11 @@ jQuery.guid
 
 // ~~~
 
-// building with AMD and Grunt
+// building with Grunt
+
+// ~~~
+
+// dependency injection and modularization with AMD
 
 // ~~~
 
@@ -55,8 +60,15 @@ jQuery.ajaxTransport();
 
 // ~~~
 
-// All jQuery hooks
+// jQuery hooks
 // http://stackoverflow.com/questions/15494498/which-hooks-are-provided-in-jquery/15511578#15511578
+// Extending hooks in you application
+
+// ~~~
+
+// feature-detection
+jQuery.support;
+// how jQuery modules expand it and how you could use it too
 
 // ~~~
 
