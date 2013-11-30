@@ -180,6 +180,31 @@ by Haralan Dobrev
 
 
 
+
+// let getStarted();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // optimizing Array.prototype.<function>.call with core_deletedIds
 // optimizing Object.prototype.<function>.call with class2type
 var core_concat = core_deletedIds.concat,
