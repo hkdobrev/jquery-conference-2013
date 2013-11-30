@@ -212,6 +212,34 @@ by Haralan Dobrev
 
 
 
+
+// My "slides" are hosted on GitHub!
+// https://github.com/hkdobrev/jquery-conference-2013
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // let getStarted();
 
 
