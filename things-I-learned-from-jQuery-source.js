@@ -93,9 +93,38 @@ by Haralan Dobrev
 
 
 
+
+
+
+
+
 /**
  * W h o   a m   I ?
  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 'working at' +
 	'Despark' +
@@ -105,6 +134,11 @@ by Haralan Dobrev
 /http:\/\/despark.com/;
 /http:\/\/clippings.com/;
 /http:\/\/openbuildings.com/;
+
+
+
+
+
 
 
 
