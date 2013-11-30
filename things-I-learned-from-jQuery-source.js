@@ -93,6 +93,33 @@ by Haralan Dobrev
 
 
 
+/**
+ * Inspired by Paul Irish
+ * http://www.paulirish.com/2010/10-things-i-learned-from-the-jquery-source/
+ * http://www.paulirish.com/2011/11-more-things-i-learned-from-the-jquery-source/
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -134,6 +161,10 @@ by Haralan Dobrev
 /http:\/\/despark.com/;
 /http:\/\/clippings.com/;
 /http:\/\/openbuildings.com/;
+
+
+
+
 
 
 
