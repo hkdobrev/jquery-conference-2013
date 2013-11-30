@@ -595,3 +595,72 @@ jQuery.each( ("blur focus focusin focusout load resize scroll unload click dblcl
 // dependency injection and modularization with AMD
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * What should you remember?
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Use the Source, Luke!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Thank you for your time!
+
+
+
+
+
+
+
+
+
+
+//
