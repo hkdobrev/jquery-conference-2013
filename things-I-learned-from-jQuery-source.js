@@ -1,6 +1,13 @@
 
 
 
+
+
+
+
+
+
+
 console.log("%c\
 :::::::::::::::::::::::::::::::::::::::::::::::::::::   \n\
 ::·················································::   \n\
@@ -24,6 +31,9 @@ console.log("%c\
 :::::::::::::::::::::::ooP'.:::::::::::::::::::::::::   \n\
 :::::::::::::::::::::::...:::::::::::::::::::::::::::   \n\
 ", 'color: #2BD636; background-color: black');
+
+
+
 
 
 
@@ -295,6 +305,13 @@ var core_concat = core_deletedIds.concat,
 // breakdown of
 jQuery.type(); // uses class2type
 
+var a = new Boolean(true);
+typeof a// Object
+
+jQuery.type(a); // boolean
+
+a.toString// object [Boolean]
+
 
 
 
@@ -322,6 +339,27 @@ jQuery.type(); // uses class2type
 jQuery.readyWait++;
 
 
+$(document).ready(function(){
+
+});
+
+
+$(document).ready(function(){
+
+});
+
+
+$(document).ready(function(){
+
+});
+
+
+$(document).ready(function(){
+
+});
+
+
+jQuery(window).trigger('ready');
 
 
 
@@ -349,6 +387,10 @@ jQuery.readyWait++;
 
 
 
+eval(function (){
+
+});
+with();
 
 // Evaluates a script in a global context
 jQuery.globalEval = function( code ) {
@@ -372,6 +414,14 @@ jQuery.globalEval = function( code ) {
 		}
 	}
 };
+
+
+
+function awesomeFunction () {
+	var secret = 'mySECRET';
+
+	jQuery.globalEval('console.log(secret);')
+}
 
 
 
@@ -402,6 +452,10 @@ jQuery.globalEval = function( code ) {
 // jQuery.fn.hide();
 // jQuery.fn.show();
 
+$('visibleElement').hide();
+
+$('#awesomeID').data('key', 'value');
+
 
 
 
@@ -431,6 +485,10 @@ jQuery.globalEval = function( code ) {
 
 
 jQuery.ajaxTransport();
+
+jQuery.ajaxTransport(function() {
+
+});
 
 // show example in jQuery-File-Upload
 // http://git.io/fZxkzA
@@ -466,6 +524,13 @@ jQuery.ajaxTransport();
 // Extending hooks in you application
 
 
+<a aria-visible-something-else="sdfdssdf"></a>
+jQuery('a').attr('aria-visible-something-else');
+
+jQuery.attrHooks['ariav'] = 'aria-visible-something-else'
+
+$('a').attr('ariav', '')
+
 
 
 
@@ -495,7 +560,9 @@ jQuery.support;
 // how jQuery modules expand it and how you could use it too
 
 
+jQuery.support;
 
+document.querySelectorAll();
 
 
 
@@ -546,7 +613,7 @@ jQuery.support;
 
 
 jQuery('.btn').addClass(function(index, currentClass) {
-
+	return '.btn-remove' + ' btn-' + index;
 });
 
 jQuery('.btn').toggleClass(function(index, currentClass) {
@@ -555,7 +622,9 @@ jQuery('.btn').toggleClass(function(index, currentClass) {
 
 
 
-
+jQuery('.btn').each(function(){
+	$(this).addClass('.btn-remove');
+});
 
 
 
