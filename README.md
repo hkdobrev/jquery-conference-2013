@@ -15,3 +15,7 @@ You could learn how jQuery is built from dozens of files into one long, but lean
 Don't only learn how to do things. Always learn how things work!
 
 The presentation is one JavaScript file which is expanded from the initial points to its full content live during the talk.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hkdobrev/jquery-conference-2013/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
