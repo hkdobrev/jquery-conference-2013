@@ -527,9 +527,9 @@ jQuery.ajaxTransport(function() {
 <a aria-visible-something-else="sdfdssdf"></a>
 jQuery('a').attr('aria-visible-something-else');
 
-jQuery.attrHooks['ariav'] = 'aria-visible-something-else'
+jQuery.attrHooks['ariav'] = 'aria-visible-something-else';
 
-$('a').attr('ariav', '')
+$('a').attr('ariav', '');
 
 
 
